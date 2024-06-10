@@ -1,10 +1,16 @@
 {
-	"cSpell.words": ["autodocs", "biomejs", "tsup", "Turborepo"],
+	"cSpell.words": ["autodocs", "biomejs", "Docgen", "tsup", "Turborepo"],
 	"editor.defaultFormatter": "biomejs.biome",
 	"editor.codeActionsOnSave": {
 		"quickfix.biome": "explicit"
 	},
 	"[typescriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescript]": {
 		"editor.defaultFormatter": "biomejs.biome"
 	}
 }
