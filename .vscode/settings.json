@@ -1,11 +1,3 @@
 {
-  "eslint.workingDirectories": [
-    {
-      "mode": "auto"
-    }
-  ],
-  "cSpell.words": [
-    "biomejs",
-    "tsup"
-  ]
+	"cSpell.words": ["biomejs", "tsup", "Turborepo"]
 }
