@@ -1,14 +1,11 @@
-export interface ButtonProps
-	extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-	children: React.ReactNode;
-}
+import { type ComponentProps, forwardRef } from "react";
 
-export function Button({ children, ...other }: ButtonProps): JSX.Element {
-	return (
-		<button type="button" {...other}>
-			{children}
-		</button>
-	);
-}
+export type ButtonProps = ComponentProps<"button">;
+
+export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
+	(props, ref) => {
+		return <button type="button" ref={ref} {...props} />;
+	},
+);
 
 Button.displayName = "Button";
