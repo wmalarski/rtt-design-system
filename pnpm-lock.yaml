@@ -14,9 +14,6 @@ importers:
       '@changesets/cli':
         specifier: ^2.27.1
         version: 2.27.2
-      prettier:
-        specifier: ^3.2.5
-        version: 3.2.5
       turbo:
         specifier: latest
         version: 2.0.3
@@ -3896,10 +3893,6 @@ packages:
   prettier@2.8.8:
     resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
-
-  prettier@3.2.5:
-    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
-    engines: {node: '>=14'}
 
   pretty-hrtime@1.0.3:
     resolution: {integrity: sha512-66hKPCr+72mlfiSjlEB1+45IjXSqvVAIy6mocupoww4tBFE9R9IhwwUGoI4G++Tc9Aq+2rxOt0RFU6gPcrte0A==}
@@ -9274,8 +9267,6 @@ snapshots:
       which-pm: 2.0.0
 
   prettier@2.8.8: {}
-
-  prettier@3.2.5: {}
 
   pretty-hrtime@1.0.3: {}
 
