@@ -16,7 +16,7 @@
 	},
 	"devDependencies": {
 		"@chromatic-com/storybook": "1.5.0",
-		"@repo/typescript-config": "workspace:*",
+		"@rtt-design-system/typescript-config": "workspace:*",
 		"@storybook/addon-actions": "^8.1.6",
 		"@storybook/addon-docs": "^8.1.6",
 		"@storybook/addon-essentials": "^8.1.6",
