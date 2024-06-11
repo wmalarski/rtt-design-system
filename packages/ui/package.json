@@ -1,9 +1,7 @@
 {
 	"name": "@rtt-design-system/ui",
 	"version": "0.0.0",
-	"sideEffects": [
-		"**/*.css"
-	],
+	"sideEffects": ["**/*.css"],
 	"license": "MIT",
 	"exports": {
 		"./styles.css": "./dist/styles.css",
@@ -16,6 +14,11 @@
 			"types": "./src/button/button.tsx",
 			"import": "./dist/button/button.mjs",
 			"require": "./dist/button/button.js"
+		},
+		"./dialog": {
+			"types": "./src/dialog/dialog.tsx",
+			"import": "./dist/dialog/dialog.mjs",
+			"require": "./dist/dialog/dialog.js"
 		}
 	},
 	"scripts": {
@@ -45,6 +48,7 @@
 		"vitest": "^1.6.0"
 	},
 	"dependencies": {
+		"@radix-ui/react-dialog": "^1.0.5",
 		"@radix-ui/react-slot": "^1.0.2",
 		"class-variance-authority": "^0.7.0",
 		"clsx": "^2.1.1",
