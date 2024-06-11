@@ -8,6 +8,21 @@ const meta: Meta<typeof Button> = {
 			control: { type: "radio" },
 			options: ["button", "submit", "reset"],
 		},
+		variant: {
+			control: { type: "radio" },
+			options: [
+				"default",
+				"destructive",
+				"outline",
+				"secondary",
+				"ghost",
+				"link",
+			],
+		},
+		size: {
+			control: { type: "radio" },
+			options: ["default", "sm", "lg", "icon"],
+		},
 	},
 };
 
@@ -35,11 +50,6 @@ export const Primary: Story = {
 	args: {
 		children: "Hello",
 		type: "button",
-		style: {
-			color: "blue",
-			border: "1px solid gray",
-			padding: 10,
-			borderRadius: 10,
-		},
+		variant: "default",
 	},
 };
