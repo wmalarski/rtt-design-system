@@ -1,9 +1,10 @@
 {
 	"name": "@rtt-design-system/ui",
 	"version": "0.0.0",
-	"sideEffects": false,
+	"sideEffects": ["**/*.css"],
 	"license": "MIT",
 	"exports": {
+		"./styles.css": "./dist/index.css",
 		"./button": {
 			"types": "./src/button.tsx",
 			"import": "./dist/button.mjs",

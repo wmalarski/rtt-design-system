@@ -21,7 +21,7 @@ const config = {
 
 	core: {},
 
-	async viteFinal(config, { configType }) {
+	async viteFinal(config) {
 		// customize the Vite config here
 		return {
 			...config,
