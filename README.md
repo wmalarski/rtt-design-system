@@ -1,26 +1,20 @@
-# Turborepo Design System Starter
+# Turborepo Design System
 
-This guide explains how to use a React design system starter powered by:
+This React design system is powered by:
 
 - 🏎 [Turborepo](https://turbo.build/repo) — High-performance build system for Monorepos
 - 🚀 [React](https://reactjs.org/) — JavaScript library for user interfaces
+- 💅 [Tailwind](https://tailwindcss.com/) — Styling solution
+- 👷 [Radix-UI](https://www.radix-ui.com/) — Component library
 - 🛠 [Tsup](https://github.com/egoist/tsup) — TypeScript bundler powered by esbuild
 - 📖 [Storybook](https://storybook.js.org/) — UI component environment powered by Vite
 
-As well as a few others tools preconfigured:
+As well as a few others tools:
 
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [Biome](https://biomejs.dev/) for code linting and formatting
+- [Vitest](https://vitest.dev/) next generation testing framework
 - [Changesets](https://github.com/changesets/changesets) for managing versioning and changelogs
-- [GitHub Actions](https://github.com/changesets/action) for fully automated package publishing
-
-## Using this example
-
-Run the following command:
-
-```sh
-npx create-turbo@latest -e design-system
-```
 
 ### Useful Commands
 
