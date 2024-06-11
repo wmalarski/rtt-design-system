@@ -26,9 +26,7 @@ const config = {
 		return {
 			...config,
 			define: { "process.env": {} },
-			esbuild: {
-				jsx: "automatic",
-			},
+			esbuild: { jsx: "automatic" },
 			resolve: {
 				alias: [
 					{

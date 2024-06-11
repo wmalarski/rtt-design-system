@@ -7,7 +7,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
 		return (
 			<button
 				type="button"
-				className="ui-bg-slate-900 ui-p-8"
+				className="ui-bg-red-800 ui-p-8"
 				ref={ref}
 				{...props}
 			/>
