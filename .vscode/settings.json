@@ -5,6 +5,7 @@
 		"Docgen",
 		"Filenaming",
 		"tailwindcss",
+		"treeshake",
 		"tsup",
 		"Turborepo"
 	],

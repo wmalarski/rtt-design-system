@@ -6,9 +6,9 @@
 	"exports": {
 		"./styles.css": "./dist/styles.css",
 		"./button": {
-			"types": "./src/button.tsx",
-			"import": "./dist/button.mjs",
-			"require": "./dist/button.js"
+			"types": "./src/button/button.tsx",
+			"import": "./dist/button/button.mjs",
+			"require": "./dist/button/button.js"
 		}
 	},
 	"scripts": {
