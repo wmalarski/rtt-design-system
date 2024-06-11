@@ -7,6 +7,7 @@
 		"dev": "storybook dev -p 6006",
 		"build": "storybook build --docs",
 		"preview-storybook": "serve storybook-static",
+		"types": "tsc --noEmit",
 		"clean": "rm -rf .turbo && rm -rf node_modules"
 	},
 	"dependencies": {

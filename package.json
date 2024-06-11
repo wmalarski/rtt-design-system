@@ -3,7 +3,11 @@
 	"scripts": {
 		"build": "turbo run build",
 		"dev": "turbo run dev",
-		"lint": "turbo run lint",
+		"preview-storybook": "turbo run preview-storybook",
+		"test": "turbo run test",
+		"test:coverage": "turbo run test:coverage",
+		"test:watch": "turbo run test:watch",
+		"types": "turbo run types",
 		"clean": "turbo run clean && rm -rf node_modules",
 		"format-and-lint": "biome check .",
 		"format-and-lint:fix": "biome check . --write",

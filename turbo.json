@@ -5,13 +5,20 @@
 			"outputs": ["dist/**", "storybook-static/**"],
 			"dependsOn": ["^build"]
 		},
-		"lint": {
-			"dependsOn": ["^lint"]
+		"preview-storybook": {
+			"cache": false
 		},
 		"dev": {
 			"cache": false,
 			"persistent": true
 		},
+		"test": {},
+		"test:coverage": {},
+		"test:watch": {
+			"cache": false,
+			"persistent": true
+		},
+		"types": {},
 		"clean": {
 			"cache": false
 		},
