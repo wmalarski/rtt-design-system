@@ -1,5 +1,5 @@
 {
-	"name": "docs",
+	"name": "@rtt-design-system/docs",
 	"version": "0.0.0",
 	"type": "module",
 	"private": true,
@@ -11,14 +11,14 @@
 		"clean": "rm -rf .turbo && rm -rf node_modules"
 	},
 	"dependencies": {
-		"@rtt-design-system/ui": "workspace:*",
+		"@rtt-design-system/ui": "workspace: *",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1"
 	},
 	"devDependencies": {
 		"@chromatic-com/storybook": "1.5.0",
-		"@rtt-design-system/typescript-config": "workspace:*",
-		"@rtt-design-system/tailwind-config": "workspace:*",
+		"@rtt-design-system/typescript-config": "workspace: *",
+		"@rtt-design-system/tailwind-config": "workspace: *",
 		"@storybook/addon-actions": "^8.1.6",
 		"@storybook/addon-docs": "^8.1.6",
 		"@storybook/addon-essentials": "^8.1.6",

@@ -1,8 +1,9 @@
 {
 	"name": "@rtt-design-system/ui",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"sideEffects": ["**/*.css"],
 	"license": "MIT",
+	"files": ["dist/**"],
 	"exports": {
 		"./styles.css": "./dist/styles.css",
 		"./cn": {
@@ -31,8 +32,8 @@
 		"clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
 	},
 	"devDependencies": {
-		"@rtt-design-system/tailwind-config": "workspace:*",
-		"@rtt-design-system/typescript-config": "workspace:*",
+		"@rtt-design-system/tailwind-config": "workspace: *",
+		"@rtt-design-system/typescript-config": "workspace: *",
 		"@testing-library/jest-dom": "^6.4.6",
 		"@testing-library/react": "^16.0.0",
 		"@types/react": "^18.3.3",

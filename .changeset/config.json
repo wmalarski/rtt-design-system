@@ -6,5 +6,6 @@
 	"linked": [],
 	"access": "public",
 	"updateInternalDependencies": "patch",
-	"ignore": ["@rtt-design-system/docs"]
+	"ignore": ["@rtt-design-system/docs"],
+	"baseBranch": "main"
 }
